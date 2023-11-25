@@ -4,7 +4,7 @@ steps:
       - gcloud
       - functions
       - deploy
-      - cloud-build-demo
+      - build-demo
       - --region=us-central1
       - --source=.
       - --trigger-http
